@@ -1,0 +1,48 @@
+body{
+    background-color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.singin{
+     width: 300PX;
+     padding: 1REM;
+     background-color: whitesmoke;    
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin: 2rem;
+     border-radius: 10px;
+     padding-left: 3rem;
+     padding-right: 3rem;
+}
+.singin h1{
+   font-size: 32px;
+   margin-bottom: 2rem;
+   font-weight: bold;
+}
+.singin input{
+    margin-bottom: 1rem;
+  padding: 1rem 2rem;
+    border: none; 
+    border-radius: 10px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.singin button{
+ padding: 1rem 2rem;
+ font-size: 16px;
+ border-radius: 10px;
+ border: none;
+ width: 100%;
+ background-color: blue;
+ color: white;
+ font-weight: bold;
+}
